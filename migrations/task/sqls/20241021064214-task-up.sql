@@ -107,7 +107,7 @@ VALUES ((select id from "USER" where email = 'lee2000@hexschooltest.io'),2),
 INSERT INTO "COACH_LINK_SKILL"(coach_id, skill_id)
 SELECT C.id, S.id FROM "COACH" C
 left join "SKILL" S on 1=1
-where s."name"  = '重訓'
+where s."name"  = '重訓';
 
 
 INSERT INTO "COACH_LINK_SKILL"(coach_id, skill_id)
